@@ -5,7 +5,7 @@ class Config:
     
     API_ID = environ.get("API_ID", "18466881")
     API_HASH = environ.get("API_HASH", "8c8ca14ad8e416ce4e6ea717db7ec6af")
-    BOT_TOKEN = environ.get("BOT_TOKEN", "8434121689:AAETQNk2JSU3N_t68TRkW8nDFvDBLLGu3oE") 
+    BOT_TOKEN = environ.get("BOT_TOKEN", "8375007513:AAF_ayuts-Qj3s0GOeHnyaGUeXaqIZXqZXI") 
     BOT_OWNER_ID = [int(id) for id in environ.get("BOT_OWNER_ID", "5565120414").split()]
     BOT_SESSION = environ.get("BOT_SESSION", "NG_share_bot") 
 
