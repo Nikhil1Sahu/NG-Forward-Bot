@@ -18,6 +18,11 @@ class Config:
     FORCE_SUB_CHANNEL = environ.get("FORCE_SUB_CHANNEL", "https://t.me/network_of_kingdom") # FORCE SUB channel link 
     FORCE_SUB_ON = environ.get("FORCE_SUB_ON", "True")  # FORCE SUB ON - OFF
 
+    START_MESSAGE = environ.get(
+        "START_MESSAGE",
+        "Hello [NG]Sharing bot\n\nI can store private files in Specified Channel and other users can access it from special link."
+    )
+
 
 class temp(object): 
     lock = {}
